@@ -30,7 +30,7 @@ export default function Question() {
   return (
     <>
       <h1>{QUESTIONS[count].id} : {QUESTIONS[count].prompt} </h1>
-      <ListeChoix choix={QUESTIONS[count].choices} onSelect={setChoix} />
+      <ListeChoix choix={QUESTIONS[count].choices} onSelect={setChoix} selectedId={choix} />
       <button onClick={nextQuestion}>suivant</button>
     </>
   )

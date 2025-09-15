@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ListeChoix({ choix, onSelect }) {
+export default function ListeChoix({choix, onSelect, selectedId }) {
   return (
     <ul>
       {choix.map((item) => (
