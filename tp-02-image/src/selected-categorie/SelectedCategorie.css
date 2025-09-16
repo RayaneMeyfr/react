@@ -1,0 +1,30 @@
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;      
+  padding: 0;
+  margin: 20px 0;
+  list-style: none; 
+  justify-content: center;
+}
+
+li {
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+li:hover {
+  background-color: #ddd;
+}
+
+li.active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
