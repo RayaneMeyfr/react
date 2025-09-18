@@ -3,7 +3,7 @@ import { configureStore, createSlice } from "@reduxjs/toolkit";
 const dataExpenseSlice = createSlice({
     name : "dataExpense",
     initialState : {
-                        total: 32,
+                        total: 82,
                         food: [{
                             id: 1,
                             price: 12,
@@ -15,7 +15,12 @@ const dataExpenseSlice = createSlice({
                             name: "TEST",
                             date: "25/08/2025"
                         }],
-                        transport: [],
+                        transport: [{
+                            id: 2,
+                            price: 50,
+                            name: "voiture",
+                            date: "25/08/2025"
+                        }],
                         rent: [],
                         leisure:[],
                         other: []
