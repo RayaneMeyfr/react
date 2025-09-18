@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(227, 227, 227);
+}
+
+nav {
+  background-color: #1e1e2f;      
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;                   
+  text-decoration: none;          
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #33334d;      
+  color: #69e9ff;                 
+}
+
+nav a.active {
+  background-color: #41c4dc;      
+  color: #1e1e2f;
+  font-weight: 600;
+}
